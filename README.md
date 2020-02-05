@@ -41,3 +41,11 @@ https://www.actuia.com/actualite/google-publie-open-source-nouvelle-api-de-detec
 - Code Open Source TensorFlow :
 
 https://github.com/tensorflow/models/tree/master/research/object_detection
+
+
+- document intéressant pour le projet :
+
+https://arxiv.org/pdf/1902.07830.pdf
+
+
+
