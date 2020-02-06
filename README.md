@@ -51,10 +51,9 @@ https://www.actuia.com/actualite/google-publie-open-source-nouvelle-api-de-detec
 
 En ce qui concerne l'API, celle ci est déjà implémenté dans produit comme NestCam, Recherches d'images ou encore Street View.
 
-- Code Open Source TensorFlow :
+- Code Open Source TensorFlow  (série de modèles pré-entraînés):
 
 https://github.com/tensorflow/models/tree/master/research/object_detection
-
 
 - Caractéristiques des différents frameworks
 
@@ -68,6 +67,22 @@ TensorFlow, framework de Google. Le principal langage de programmation de Tensor
 TensorFlow dispose de nombreux didacticiels, documents et projets.
 
 PyTorch, framework de Facebook, successeur de Torch. Basé sur Python, exploite les principaux packages Python tels que NumPy. Plus simple de créer des algorithmes complexes comme un réseau de neurones récurrent.
+
+
+## Librairies d'images
+
+- Libraire Coco (PythonAPI et Librairie d'images)
+
+https://github.com/cocodataset/cocoapi
+
+- Site de Coco
+
+http://cocodataset.org/#home
+
+- Librairie ImageNet
+
+http://image-net.org/
+
 
 ## Documents intéressants pour le projet :
 
@@ -87,5 +102,9 @@ ONNX (Open Neural Network Exchange) est un format open source pour les modèles 
 
 https://onnx.ai/
 
-A noter que le Framework/Converter supporte PyThorch, TensorFlow et beaucoup d'autre framework opensource.
+A noter que le Framework/Converter supporte PyTorch, TensorFlow et beaucoup d'autre framework opensource.
 En fonction du framework/outil utilisé, la procédure pour convertir le projet au format ONNX est différente. Les informations concernant cette procédure sont décrites ici : https://github.com/onnx/tutorials#converting-to-onnx-format
+
+- Tuto : Construire un modèle de reconnaissance de produits sur mesure avec TensorFlow
+
+https://artefact.com/fr-fr/news/comment-utiliser-tensorflow-et-ses-ressources-open-source-pour-construire-un-modele-de-reconnaissance-de-produit-sur-mesure/
