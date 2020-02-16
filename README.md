@@ -14,10 +14,11 @@ Mobileye prend en charge une suite complète de fonctions ADAS, AEB, LDW, FCW, L
 
 ADAS (Advanced Driver Assistance Systems) Basé sur un spectre passive/active.
 Un système passif alerte le conducteur d'un danger potentiel. Ainsi le conducteur peut effectuer une action afin de corriger l'erreur.
-Par exemple :  
-            - LDW (Lane Departure Warning) Avertissement de sortie de voie. Avertit le conducteur d'un départ de voie involontaire
+Par exemple :
+            
+- LDW (Lane Departure Warning) Avertissement de sortie de voie. Avertit le conducteur d'un départ de voie involontaire
 
-            - FCW (Forward Collison Warning) Avertissement de collision avant. Indique dans la dynamique actuelle par rapport au véhicule qui précède, une collision est imminente. Le conducteur doit freiner pour éviter la collision.
+- FCW (Forward Collison Warning) Avertissement de collision avant. Indique dans la dynamique actuelle par rapport au véhicule qui précède, une collision est imminente. Le conducteur doit freiner pour éviter la collision.
 
 Au contraire, les systèmes de sécurité actif prennent la main.
 AEB (Automatic Emergency Baking) Freinage d'urgence automatique, identifie la collision et les freins imminents sans aucune intervention du conducteur.
@@ -39,7 +40,7 @@ Autonome, défi de détection :
 - Sémantique des scène, vaste vocabulaire des indices visuels comme les feux de circulation et leur couleur, panneaux de signalisation, clignotants, direction du regard des piétons, marquages routiers.
 
 
-## Framework open source pour détection d'objets
+## Documentation, framework pour détection d'objets
 
 - TOP 10 - Traitement d'images en Python :
 
@@ -50,10 +51,6 @@ https://moncoachdata.com/blog/10-outils-de-traitement-dimages-en-python/
 https://www.actuia.com/actualite/google-publie-open-source-nouvelle-api-de-detection-dobjets-tensorflow/
 
 En ce qui concerne l'API, celle ci est déjà implémenté dans produit comme NestCam, Recherches d'images ou encore Street View.
-
-- Code Open Source TensorFlow  (série de modèles pré-entraînés):
-
-https://github.com/tensorflow/models/tree/master/research/object_detection
 
 - Caractéristiques des différents frameworks
 
@@ -68,6 +65,30 @@ TensorFlow dispose de nombreux didacticiels, documents et projets.
 
 PyTorch, framework de Facebook, successeur de Torch. Basé sur Python, exploite les principaux packages Python tels que NumPy. Plus simple de créer des algorithmes complexes comme un réseau de neurones récurrent.
 
+- Reconnaissance d'objet avec OpenCV et Raspberry-pi:
+
+https://www.framboise314.fr/i-a-realisez-un-systeme-de-reconnaissance-dobjets-avec-raspberry-pi/
+
+
+## GitHub code OpenSource
+
+- Code Open Source TensorFlow  (série de modèles pré-entraînés):
+
+https://github.com/tensorflow/models/tree/master/research/object_detection
+
+- Code Open Source :
+
+https://github.com/JalaliLabUCLA/Image-feature-detection-using-Phase-Stretch-Transform
+
+- Détection objets avec OpenCV (A tester):
+
+https://github.com/xsyann/detection
+
+
+## Installation librairies
+
+Les différents projets OpenSource nécessitent différentes librairies.
+Les installations de celles ci sont décritent dans le fichier : Install.md
 
 ## Librairies d'images
 
@@ -108,3 +129,23 @@ En fonction du framework/outil utilisé, la procédure pour convertir le projet 
 - Tuto : Construire un modèle de reconnaissance de produits sur mesure avec TensorFlow
 
 https://artefact.com/fr-fr/news/comment-utiliser-tensorflow-et-ses-ressources-open-source-pour-construire-un-modele-de-reconnaissance-de-produit-sur-mesure/
+
+- Niveaux d'autonomie du véhicule autonome :
+
+https://www.nhtsa.gov/technology-innovation/automated-vehicles-safety
+
+- Jupyter Notebook de Google : 
+
+ https://colab.research.google.com/notebooks/intro.ipynb#recent=true
+
+- Cours de Christian Wolf INSA Lyon
+
+ https://perso.liris.cnrs.fr/christian.wolf/teaching/
+
+## Questionns à se poser 
+
+- Comment ces outils peuvent traiter un flux vidéo ?
+- Sont-ils capables de traiter un flux en temps réel, mini 10Hz) ?
+- Valider l'environnement de développement, Windows ou Linux. (Linux de préférence)
+- Trouver une librairie d'image adaptée contenant différents types de véhicules.
+- Trouver un algorithme OpenSource permettant de tester/entrainer une librairie d'image.
