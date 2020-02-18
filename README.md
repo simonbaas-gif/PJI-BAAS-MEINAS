@@ -80,6 +80,9 @@ https://github.com/tensorflow/models/tree/master/research/object_detection
 
 https://github.com/JalaliLabUCLA/Image-feature-detection-using-Phase-Stretch-Transform
 
+- video pour tensorFlow :
+ https://www.youtube.com/watch?v=wh7_etX91ls
+
 - Détection objets avec OpenCV (A tester):
 
 https://github.com/xsyann/detection
