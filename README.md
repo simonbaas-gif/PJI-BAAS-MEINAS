@@ -152,6 +152,8 @@ https://tel.archives-ouvertes.fr/tel-00685828/file/These_Mario_Ibarra_finale.pdf
 https://github.com/udacity/SFND_Lidar_Obstacle_Detection
 https://github.com/studian/SFND_P1_Lidar_Obstacle_Detection
 
+- https://github.com/ajimenezh/self-driving-car-obstacle-detector
+
 ## Questionns à se poser 
 
 - Comment ces outils peuvent traiter un flux vidéo ?
