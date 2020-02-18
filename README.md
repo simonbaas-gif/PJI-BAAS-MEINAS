@@ -141,6 +141,10 @@ https://www.nhtsa.gov/technology-innovation/automated-vehicles-safety
 - Cours de Christian Wolf INSA Lyon
 
  https://perso.liris.cnrs.fr/christian.wolf/teaching/
+ 
+- Thèse intéressante sur la détection d'obstacle
+ 
+https://tel.archives-ouvertes.fr/tel-00685828/file/These_Mario_Ibarra_finale.pdf
 
 ## Questionns à se poser 
 
