@@ -82,6 +82,7 @@ https://github.com/JalaliLabUCLA/Image-feature-detection-using-Phase-Stretch-Tra
 
 - video pour tensorFlow :
  https://www.youtube.com/watch?v=wh7_etX91ls
+ https://towardsdatascience.com/how-to-train-your-own-object-detector-with-tensorflows-object-detector-api-bec72ecfe1d9
 
 - Détection objets avec OpenCV (A tester):
 
