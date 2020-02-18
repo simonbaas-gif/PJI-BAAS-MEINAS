@@ -150,6 +150,7 @@ https://tel.archives-ouvertes.fr/tel-00685828/file/These_Mario_Ibarra_finale.pdf
 - github Lidar_Obstacle_Detection :
 
 https://github.com/udacity/SFND_Lidar_Obstacle_Detection
+https://github.com/studian/SFND_P1_Lidar_Obstacle_Detection
 
 ## Questionns à se poser 
 
