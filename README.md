@@ -146,6 +146,11 @@ https://www.nhtsa.gov/technology-innovation/automated-vehicles-safety
  
 https://tel.archives-ouvertes.fr/tel-00685828/file/These_Mario_Ibarra_finale.pdf
 
+
+- github Lidar_Obstacle_Detection :
+
+https://github.com/udacity/SFND_Lidar_Obstacle_Detection
+
 ## Questionns à se poser 
 
 - Comment ces outils peuvent traiter un flux vidéo ?
