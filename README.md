@@ -154,6 +154,8 @@ https://github.com/studian/SFND_P1_Lidar_Obstacle_Detection
 
 - https://github.com/ajimenezh/self-driving-car-obstacle-detector
 
+- https://github.com/alirezaasvadi/ObstacleDetection
+
 ## Questionns à se poser 
 
 - Comment ces outils peuvent traiter un flux vidéo ?
