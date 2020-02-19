@@ -86,6 +86,8 @@ https://github.com/JalaliLabUCLA/Image-feature-detection-using-Phase-Stretch-Tra
 
 - Détection objets avec OpenCV (A tester):
 
+- https://www.actuia.com/contribution/jeancharlesrisch/segmentation-et-detection-dobjets-en-temps-reel-avec-tensorflow/
+
 https://github.com/xsyann/detection
 
 
