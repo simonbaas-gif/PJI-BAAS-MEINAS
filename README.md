@@ -69,6 +69,15 @@ PyTorch, framework de Facebook, successeur de Torch. Basé sur Python, exploite 
 
 https://www.framboise314.fr/i-a-realisez-un-systeme-de-reconnaissance-dobjets-avec-raspberry-pi/
 
+- OpenCV
+
+OpenCV est un framework graphique libre spécialisée dans le traitement d'images en temps réel. Plusieurs traitement sur les images sont possibles. On peut lire, ecrire ou bien afficher une image. Lisser ou filtrer une image.
+Il a aussi une partie traitement vidéo. Tout comme les images, on peut lire, écrire et afficher une vidéo, soit depuis un fichier soit directement via une caméra. Dans le traitement vidéo nous avons la possibilité de détecter des visages grâce à la méthode de Viola et Jones. OpenCV possède aussi quelques algorithmes d'apprentissages. OpenCV dipose aussi de quelques fonctions d'interfaces graphiques.
+
+- Apprendre OpenCV
+
+https://riptutorial.com/Download/opencv-fr.pdf
+
 
 ## GitHub code OpenSource
 
@@ -84,16 +93,25 @@ https://github.com/JalaliLabUCLA/Image-feature-detection-using-Phase-Stretch-Tra
  https://www.youtube.com/watch?v=wh7_etX91ls
  https://towardsdatascience.com/how-to-train-your-own-object-detector-with-tensorflows-object-detector-api-bec72ecfe1d9
 
-- Détection objets avec OpenCV (A tester):
-
-- https://www.actuia.com/contribution/jeancharlesrisch/segmentation-et-detection-dobjets-en-temps-reel-avec-tensorflow/
+- Détection objets avec OpenCV :
 
 https://github.com/xsyann/detection
 
+Algorithme basé uniquement sur la reconnaissance des visages. Peut être possible de changer les images pour l'apprentissage.
 
-## Installation librairies
+- GitHub Lidar_Obstacle_Detection :
 
-Les différents projets OpenSource nécessitent différentes librairies.
+https://github.com/udacity/SFND_Lidar_Obstacle_Detection
+https://github.com/studian/SFND_P1_Lidar_Obstacle_Detection
+
+- https://github.com/ajimenezh/self-driving-car-obstacle-detector
+
+- https://github.com/alirezaasvadi/ObstacleDetection
+
+
+## Installation des librairies
+
+Les différents projets OpenSource nécessitent l'installation de librairies.
 Les installations de celles ci sont décritent dans le fichier : Install.md
 
 ## Librairies d'images
@@ -101,6 +119,8 @@ Les installations de celles ci sont décritent dans le fichier : Install.md
 - Libraire Coco (PythonAPI et Librairie d'images)
 
 https://github.com/cocodataset/cocoapi
+
+API utilisée dans la plus part des projets
 
 - Site de Coco
 
@@ -152,20 +172,29 @@ https://www.nhtsa.gov/technology-innovation/automated-vehicles-safety
  
 https://tel.archives-ouvertes.fr/tel-00685828/file/These_Mario_Ibarra_finale.pdf
 
+- Segmentation et détection d'objets en temps réel avec Tensorflow
 
-- github Lidar_Obstacle_Detection :
+https://www.actuia.com/contribution/jeancharlesrisch/segmentation-et-detection-dobjets-en-temps-reel-avec-tensorflow/
 
-https://github.com/udacity/SFND_Lidar_Obstacle_Detection
-https://github.com/studian/SFND_P1_Lidar_Obstacle_Detection
 
-- https://github.com/ajimenezh/self-driving-car-obstacle-detector
+## Questions à se poser 
 
-- https://github.com/alirezaasvadi/ObstacleDetection
+- Comment ces outils peuvent traiter un flux vidéo ? 
 
-## Questionns à se poser 
+(cf Segmentation et détection...) "La gestion du flux vidéo est géré par la célèbre librairie opencv."
+Il est possible  de charger des vidéos avec openCV, avec notamment par exemple, la fonction VideoCapture
 
-- Comment ces outils peuvent traiter un flux vidéo ?
 - Sont-ils capables de traiter un flux en temps réel, mini 10Hz) ?
-- Valider l'environnement de développement, Windows ou Linux. (Linux de préférence)
+
+On peut aussi capturer en direct, par exemple avec une webcam, via la fonction VideoCapture. On peut aussi enregistrer des vidéos/images.
+
+- Valider l'environnement de développement, Windows ou Linux.
+
+Nous utiliserons Linux comme environnement de développement, afin de faciliter l'installation des différentes librairies.
+
 - Trouver une librairie d'image adaptée contenant différents types de véhicules.
+
+
 - Trouver un algorithme OpenSource permettant de tester/entrainer une librairie d'image.
+
+
