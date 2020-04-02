@@ -68,6 +68,7 @@ https://github.com/JalaliLabUCLA/Image-feature-detection-using-Phase-Stretch-Tra
 
 ![](Images/voiture_overlay.png)
 
+https://medium.com/@kananvyas/obstacle-detection-and-navigation-through-tensorflow-api-943728c33243
 
 ##### Détection objets avec OpenCV
 
@@ -122,7 +123,7 @@ Mobileye prend en charge une suite complète de fonctions ADAS, AEB, LDW, FCW, L
 ADAS (Advanced Driver Assistance Systems) Basé sur un spectre passive/active.
 Un système passif alerte le conducteur d'un danger potentiel. Ainsi le conducteur peut effectuer une action afin de corriger l'erreur.
 Par exemple :
-            
+
 - LDW (Lane Departure Warning) Avertissement de sortie de voie. Avertit le conducteur d'un départ de voie involontaire
 
 - FCW (Forward Collison Warning) Avertissement de collision avant. Indique dans la dynamique actuelle par rapport au véhicule qui précède, une collision est imminente. Le conducteur doit freiner pour éviter la collision.
@@ -182,9 +183,9 @@ https://www.nhtsa.gov/technology-innovation/automated-vehicles-safety
 ##### Cours de Christian Wolf INSA Lyon
 
  https://perso.liris.cnrs.fr/christian.wolf/teaching/
- 
+
 ##### Thèse intéressante sur la détection d'obstacles
- 
+
 https://tel.archives-ouvertes.fr/tel-00685828/file/These_Mario_Ibarra_finale.pdf
 
 ##### Segmentation et détection d'objets en temps réel avec Tensorflow
@@ -193,9 +194,9 @@ https://www.actuia.com/contribution/jeancharlesrisch/segmentation-et-detection-d
 
 ---
 
-## Questions à se poser 
+## Questions à se poser
 
-##### Comment ces outils peuvent traiter un flux vidéo ? 
+##### Comment ces outils peuvent traiter un flux vidéo ?
 
 > La gestion du flux vidéo est géré par la célèbre librairie OpenCV. (cf Segmentation et détection...)
 
@@ -214,5 +215,3 @@ Nous utiliserons Linux comme environnement de développement, afin de faciliter 
 Pour le moment c'est la librairie Coco qui semble être la plus utilisée sur les différents code Open Source trouvés. Afin de l'utiliser il est nécessaire d'installer l'API Coco.
 
 ##### Trouver un algorithme OpenSource permettant de tester/entrainer une librairie d'image.
-
-
