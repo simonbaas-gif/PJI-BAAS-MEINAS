@@ -1,7 +1,7 @@
-# PJI Notes
+# PJI README
 
-Baas Simon
-Meinas Julien
+- Baas Simon
+- Meinas Julien
 
 ---
 
@@ -50,7 +50,7 @@ https://riptutorial.com/Download/opencv-fr.pdf
 
 ---
 
-## GitHub code Open Source
+## GitHub, code Open Source
 
 ##### Code Open Source TensorFlow  (série de modèles pré-entraînés)
 
@@ -88,14 +88,14 @@ https://github.com/studian/SFND_P1_Lidar_Obstacle_Detection
 
 ## Installation des librairies
 
-Les différents projets Open Source nécessitent l'installation de librairies.
-Les installations de celles ci sont décritent dans le fichier : Install.md
+Les différents projets Open Source nécessitent l'installation de librairies (python).
+Les installations de celles ci sont décritent dans le fichier Install.markdown
 
 ---
 
 ## Librairies d'images
 
-##### Libraire Coco (PythonAPI et Librairie d'images)
+##### Libraire Coco (API Python et Librairie d'images)
 
 https://github.com/cocodataset/cocoapi
 
@@ -122,7 +122,7 @@ Mobileye prend en charge une suite complète de fonctions ADAS, AEB, LDW, FCW, L
 ADAS (Advanced Driver Assistance Systems) Basé sur un spectre passive/active.
 Un système passif alerte le conducteur d'un danger potentiel. Ainsi le conducteur peut effectuer une action afin de corriger l'erreur.
 Par exemple :
-            
+
 - LDW (Lane Departure Warning) Avertissement de sortie de voie. Avertit le conducteur d'un départ de voie involontaire
 
 - FCW (Forward Collison Warning) Avertissement de collision avant. Indique dans la dynamique actuelle par rapport au véhicule qui précède, une collision est imminente. Le conducteur doit freiner pour éviter la collision.
@@ -182,9 +182,9 @@ https://www.nhtsa.gov/technology-innovation/automated-vehicles-safety
 ##### Cours de Christian Wolf INSA Lyon
 
  https://perso.liris.cnrs.fr/christian.wolf/teaching/
- 
+
 ##### Thèse intéressante sur la détection d'obstacles
- 
+
 https://tel.archives-ouvertes.fr/tel-00685828/file/These_Mario_Ibarra_finale.pdf
 
 ##### Segmentation et détection d'objets en temps réel avec Tensorflow
@@ -193,9 +193,9 @@ https://www.actuia.com/contribution/jeancharlesrisch/segmentation-et-detection-d
 
 ---
 
-## Questions à se poser 
+## Questions à se poser
 
-##### Comment ces outils peuvent traiter un flux vidéo ? 
+##### Comment ces outils peuvent traiter un flux vidéo ?
 
 > La gestion du flux vidéo est géré par la célèbre librairie OpenCV. (cf Segmentation et détection...)
 
@@ -213,6 +213,38 @@ Nous utiliserons Linux comme environnement de développement, afin de faciliter 
 
 Pour le moment c'est la librairie Coco qui semble être la plus utilisée sur les différents code Open Source trouvés. Afin de l'utiliser il est nécessaire d'installer l'API Coco.
 
-##### Trouver un algorithme OpenSource permettant de tester/entrainer une librairie d'image.
+##### Trouver un algorithme Open Source permettant de tester/entraîner une librairie d'image.
+
+Confère fichier Intall.markdown.
+
+---
+
+# Projet
+
+## Installation du projet
+
+Les différentes étapes concernant l'installation du projet se trouvent dans le fichier Install.markdown.
+
+## Les différents scripts du projet
+
+- image_resize.py
+
+Permet de redimensionner une image.
+
+- tensorflow/models/research/object_detection/object_detection_tutorial_TF1_EDIT.py
+
+Lance la détection d'objets sur les images de test présentes dans le répertoire test_images.
+
+- tensorflow/models/research/object_detection/object_detection_with_cv2_TF1_EDIT.py
+
+Lance le même algorithme mais en l'adaptant à OpenCV (vidéo, webcam, caméra).
+
+## Execution des scripts
+
+- python object_detection_with_cv2_TF1_EDIT.py --timer 5 --width 800 --duration 100
+
+- python object_detection_with_cv2_TF1_EDIT.py
+
+
 
 
