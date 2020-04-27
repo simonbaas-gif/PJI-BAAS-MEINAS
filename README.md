@@ -68,6 +68,7 @@ https://github.com/JalaliLabUCLA/Image-feature-detection-using-Phase-Stretch-Tra
 
 ![](Images/voiture_overlay.png)
 
+https://medium.com/@kananvyas/obstacle-detection-and-navigation-through-tensorflow-api-943728c33243
 
 ##### Détection objets avec OpenCV
 
@@ -244,7 +245,3 @@ Lance le même algorithme mais en l'adaptant à OpenCV (vidéo, webcam, caméra)
 - python object_detection_with_cv2_TF1_EDIT.py --timer 5 --width 800 --duration 100
 
 - python object_detection_with_cv2_TF1_EDIT.py
-
-
-
-
