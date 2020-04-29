@@ -5,7 +5,82 @@
 
 ---
 
-## Documentation, frameworks pour détection d'objets
+# Projet
+
+## Installation du projet
+
+Les différentes étapes concernant l'installation du projet se trouvent dans le fichier Install.markdown.
+
+## Les différents scripts du projet
+
+- image_resize.py
+
+Permet de redimensionner une image.
+
+- tensorflow/models/research/object_detection/object_detection_tutorial_TF1_EDIT.py
+
+Lance la détection d'objets sur les images de test présentes dans le répertoire test_images.
+
+- tensorflow/models/research/object_detection/object_detection_with_cv2_TF1_EDIT.py
+
+Lance le même algorithme mais en l'adaptant à OpenCV (vidéo, webcam, caméra).
+
+## Execution des scripts
+
+- python object_detection_with_cv2_TF1_EDIT.py --timer 5 --width 800 --duration 100
+
+- python object_detection_with_cv2_TF1_EDIT.py
+
+---
+
+## Installation des librairies
+
+Le projet nécessite l'installation de différentes librairies python.
+Les installations de celles ci sont décritent dans le fichier Install.markdown
+
+---
+
+## Questions à se poser
+
+##### Comment ces outils peuvent traiter un flux vidéo ?
+
+> La gestion du flux vidéo est géré par la célèbre librairie OpenCV. (cf Segmentation et détection...)
+
+Il est possible  de charger des vidéos avec OpenCV, avec notamment par exemple, la fonction VideoCapture
+
+##### Sont-ils capables de traiter un flux en temps réel, mini 10Hz) ?
+
+On peut aussi capturer en direct, par exemple avec une webcam, via la fonction VideoCapture. On peut aussi enregistrer des vidéos/images.
+
+##### Valider l'environnement de développement, Windows ou Linux.
+
+Nous utiliserons Linux comme environnement de développement, afin de faciliter l'installation des différentes librairies et l'utilisation des différents frameworks.
+
+##### Trouver une librairie d'image adaptée contenant différents types de véhicules.
+
+Pour le moment c'est la librairie Coco qui semble être la plus utilisée sur les différents code Open Source trouvés. Afin de l'utiliser il est nécessaire d'installer l'API Coco.
+
+##### Trouver un algorithme Open Source permettant de tester/entraîner une librairie d'image.
+
+Confère fichier Intall.markdown pour l'installation.
+
+---
+
+## Dataset
+
+#### Liens vers différents dataset
+
+http://homepages.inf.ed.ac.uk/rbf/CVonline/Imagedbase.htm
+
+https://downloads.greyc.fr/vedai/
+
+#### Utilisation du dataset
+
+https://gilberttanner.com/blog/creating-your-own-objectdetector
+
+---
+
+### Documentation, frameworks pour détection d'objets
 
 ##### TOP 10 - Traitement d'images en Python
 
@@ -50,7 +125,25 @@ https://riptutorial.com/Download/opencv-fr.pdf
 
 ---
 
-## GitHub, code Open Source
+### Librairies d'images
+
+##### Libraire Coco (API Python et Librairie d'images)
+
+https://github.com/cocodataset/cocoapi
+
+API utilisée dans la plus part des projets
+
+##### Site de Coco
+
+http://cocodataset.org/#home
+
+##### Librairie ImageNet
+
+http://image-net.org/
+
+---
+
+### GitHub, code Open Source
 
 ##### Code Open Source TensorFlow  (série de modèles pré-entraînés)
 
@@ -87,32 +180,7 @@ https://github.com/studian/SFND_P1_Lidar_Obstacle_Detection
 
 ---
 
-## Installation des librairies
-
-Les différents projets Open Source nécessitent l'installation de librairies (python).
-Les installations de celles ci sont décritent dans le fichier Install.markdown
-
----
-
-## Librairies d'images
-
-##### Libraire Coco (API Python et Librairie d'images)
-
-https://github.com/cocodataset/cocoapi
-
-API utilisée dans la plus part des projets
-
-##### Site de Coco
-
-http://cocodataset.org/#home
-
-##### Librairie ImageNet
-
-http://image-net.org/
-
----
-
-## Documents intéressants pour le projet :
+### Documents intéressants pour le projet :
 
 ##### Mobileye Technology
 
@@ -191,57 +259,3 @@ https://tel.archives-ouvertes.fr/tel-00685828/file/These_Mario_Ibarra_finale.pdf
 ##### Segmentation et détection d'objets en temps réel avec Tensorflow
 
 https://www.actuia.com/contribution/jeancharlesrisch/segmentation-et-detection-dobjets-en-temps-reel-avec-tensorflow/
-
----
-
-## Questions à se poser
-
-##### Comment ces outils peuvent traiter un flux vidéo ?
-
-> La gestion du flux vidéo est géré par la célèbre librairie OpenCV. (cf Segmentation et détection...)
-
-Il est possible  de charger des vidéos avec OpenCV, avec notamment par exemple, la fonction VideoCapture
-
-##### Sont-ils capables de traiter un flux en temps réel, mini 10Hz) ?
-
-On peut aussi capturer en direct, par exemple avec une webcam, via la fonction VideoCapture. On peut aussi enregistrer des vidéos/images.
-
-##### Valider l'environnement de développement, Windows ou Linux.
-
-Nous utiliserons Linux comme environnement de développement, afin de faciliter l'installation des différentes librairies et l'utilisation des différents frameworks.
-
-##### Trouver une librairie d'image adaptée contenant différents types de véhicules.
-
-Pour le moment c'est la librairie Coco qui semble être la plus utilisée sur les différents code Open Source trouvés. Afin de l'utiliser il est nécessaire d'installer l'API Coco.
-
-##### Trouver un algorithme Open Source permettant de tester/entraîner une librairie d'image.
-
-Confère fichier Intall.markdown.
-
----
-
-# Projet
-
-## Installation du projet
-
-Les différentes étapes concernant l'installation du projet se trouvent dans le fichier Install.markdown.
-
-## Les différents scripts du projet
-
-- image_resize.py
-
-Permet de redimensionner une image.
-
-- tensorflow/models/research/object_detection/object_detection_tutorial_TF1_EDIT.py
-
-Lance la détection d'objets sur les images de test présentes dans le répertoire test_images.
-
-- tensorflow/models/research/object_detection/object_detection_with_cv2_TF1_EDIT.py
-
-Lance le même algorithme mais en l'adaptant à OpenCV (vidéo, webcam, caméra).
-
-## Execution des scripts
-
-- python object_detection_with_cv2_TF1_EDIT.py --timer 5 --width 800 --duration 100
-
-- python object_detection_with_cv2_TF1_EDIT.py
