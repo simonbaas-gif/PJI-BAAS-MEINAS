@@ -68,6 +68,19 @@ Confère fichier Intall.markdown pour l'installation.
 
 ## Dataset
 
+### Dataset du projet
+
+Lien vers le tutoriel de création : https://gilberttanner.com/blog/creating-your-own-objectdetector
+
+ImageNet : http://www.image-net.org/
+
+Lien vers les images labellisées (.xml) : http://www.image-net.org/api/download/imagenet.bbox.synset?wnid=n02814533
+
+64 éléments dans images/test.
+251 éléments dans images/train.
+
+On lance le script xml_to_csv.py pour convertir les éléments.
+
 #### Liens vers différents dataset
 
 http://homepages.inf.ed.ac.uk/rbf/CVonline/Imagedbase.htm
@@ -153,13 +166,13 @@ https://github.com/tensorflow/models/tree/master/research/object_detection
 
 https://github.com/JalaliLabUCLA/Image-feature-detection-using-Phase-Stretch-Transform
 
-![](Images/voiture.jpg)
+![](images/voiture.jpg)
 
 
-![](Images/voiture_edge.png)
+![](images/voiture_edge.png)
 
 
-![](Images/voiture_overlay.png)
+![](images/voiture_overlay.png)
 
 https://medium.com/@kananvyas/obstacle-detection-and-navigation-through-tensorflow-api-943728c33243
 
